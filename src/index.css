@@ -1,0 +1,9 @@
+body {
+    font-family: "Oswald", "sans-serif";
+}
+
+.opp {
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
