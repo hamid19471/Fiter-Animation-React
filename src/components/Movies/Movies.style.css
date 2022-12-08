@@ -1,0 +1,19 @@
+.image-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.image-card img {
+    border-radius: 10px;
+    position: relative;
+}
+
+.image-card h2 {
+    position: absolute;
+    margin: 5px 5px;
+    padding: 5px;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
