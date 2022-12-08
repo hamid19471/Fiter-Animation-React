@@ -8,7 +8,7 @@ const FilterButtons = () => {
         <div className="container">
             <div className="filter-button">
                 {filters.map((item) => (
-                    <button> {item} </button>
+                    <button key={item.id}> {item.name} </button>
                 ))}
             </div>
         </div>
