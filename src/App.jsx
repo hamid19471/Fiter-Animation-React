@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import FilterButtons from "./components/FilterButtons/FilterButtons";
 import Movies from "./components/Movies/Movies";
+import { AnimatePresence } from "framer-motion";
 
 export const moviesContext = createContext();
 
@@ -31,7 +32,9 @@ function App() {
             <div className="app">
                 <FilterButtons />
                 <div className="image-container">
-                    <Movies />
+                    <AnimatePresence>
+                        <Movies />
+                    </AnimatePresence>
                 </div>
             </div>
         </moviesContext.Provider>
